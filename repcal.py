@@ -1,5 +1,6 @@
 import uuid
-import sys
+import json
+import os
 
 from generator import Generator
 from classes import Step, FocusStep, GoalStep, Mode
@@ -113,7 +114,13 @@ class App:
     def load_steps(self):
         """deserializes step data from data.json to steps_cache"""
         self.steps_cache = []
+
+        if not os.path.exists('data.json'):
+            with open('data.json', 'w') as f:
+                json.dump({'steps': []}, f)
+        
         step_data = read_json('data.json')['steps']
+
         if step_data:
             for v in step_data:
                 inp = 'mk '

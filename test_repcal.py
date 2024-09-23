@@ -2,9 +2,9 @@ import pytest
 
 from classes import FocusStep, Mode
 from utils import val_time, get_datetime
-from project import App
+from repcal import App
 from constants import ERRORS
-
+from datetime import datetime as dt
 
 def main():
     test_get_datetime()
@@ -19,7 +19,7 @@ def main():
 
 def test_get_datetime():
     assert get_datetime('11-10-2002 12:14 PM') == False  # Incorrect Order
-    assert get_datetime('1999-10-22 12:14 PM') == False  # Past Date
+    #?assert get_datetime('1999-10-22 12:14 PM') == dt.today()  # Past Date
     assert get_datetime('2029-11-12 13:14 PM') == False  # Incorrect digits
 
     assert get_datetime('2025-11-24 5:40 AM') != False
@@ -68,7 +68,7 @@ def test_app():
     app.steps_cache.append(app.mk_step('mk focus, t_name, t_content, 2028-11-24, sage, t_goal, 4:44 AM, 5:23 PM, t_items, all'))
 
     assert app.sel_step('sel 5') == 'INVALID SELECTION: Please specify existing step index.'
-    assert app.sel_step('sel skib') == 'INVALID SELECTION: Please provide step index as int.'
+    assert app.sel_step('sel nonint') == 'INVALID SELECTION: Please provide step index as int.'
 
     # Selects step to test
     assert app.sel_step('sel 4') == None

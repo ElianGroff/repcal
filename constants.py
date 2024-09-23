@@ -7,7 +7,7 @@ DEFAULT_START_TIME = '8:00 AM'
 DEFAULT_END_TIME = '11:59 PM'
 
 SCOPES = ["https://www.googleapis.com/auth/calendar"]
-CALENDAR_NAME = 'SKIB_CALENDAR_DEMO'
+CALENDAR_NAME = 'repcal_demo'
 
 COLORS_KEY = {
     "lavender": '1',
@@ -34,19 +34,19 @@ ERRORS = {
 
 HELP = {
     'edit':
-        f'mk type, name, content, date, color         |Creates and selects a Step. Separate properties with comma:,\n'
-        f"  ▪ goal, time_start, time_end, items, days |Focus Step's additional properties. \n"
-        f"  ▪ focus                                   |Goal Step's additional property.\n"
-        f'sel [step_num:int]                          |Selects the step by the number given.\n'
-        f'del                                         |Deletes the currently selected step.\n'
-        f'set [prop:str] [change:value]               |Changes the property of the selected step to a new value.\n'
-        f'reload                                      |Re-renders all the current steps in the terminal.\n'
-        f'save                                        |Saves all the current steps into data.json and moves you back to Menu Mode.\n'
-        f'gen                                         |Generates or regenerates the steps as events on Google Calendar.\n'
+        f'mk type, name, content, date, color          | Creates and selects a Step. Separate properties with comma:,\n'
+        f"  ▪ goal, time_start, time_end, items, days  | Focus Step's additional properties. \n"
+        f"  ▪ focus                                    | Goal Step's additional property.\n"
+        f'sel [step_num:int]                           | Selects the step by the number given.\n'
+        f'del                                          | Deletes the currently selected step.\n'
+        f'set [prop:str] [change:value]                | Changes the property of the selected step to a new value.\n'
+        f'reload                                       | Re-renders all the current steps in the terminal.\n'
+        f'save                                         | Saves all the current steps into data.json and moves you back to Menu Mode.\n'
+        f'gen                                          | Generates or regenerates the steps as events on Google Calendar.\n'
     ,
     'setting':
-        f"reload                                      |Re-renders the current settings in the terminal.\n"
-        f"set [setting] [change:value]                |Configures the specified setting to the given value.\n"
-        f"save                                        |Saves the changes you made to settings and moves you back to Menu Mode.\n"
+        f"reload                                       | Re-renders the current settings in the terminal.\n"
+        f"set [setting] [change:value]                 | Configures the specified setting to the given value.\n"
+        f"save                                         | Saves the changes you made to settings and moves you back to Menu Mode.\n"
 }
 

@@ -14,14 +14,17 @@ def get_datetime(d):
         date = dt.datetime.strptime(d, "%Y-%m-%d")
         if today < date:
             return date
+        return today
     elif m_datetime:
         date = dt.datetime.strptime(d, "%Y-%m-%d %I:%M %p")
         if today < date:
             return date
+        return today
     elif m_alt:
         date = dt.datetime.strptime(d, "%Y-%m-%d %H:%M:%S")
         if today < date:
             return date
+        return today
 
     return False
 

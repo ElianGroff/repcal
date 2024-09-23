@@ -1,4 +1,4 @@
-## SKIBITY OHIO CALENDER 
+## REPCAL
 To say the core of this calendar program is to generate a ToDo List onto Google Calendar wood be an understatement. The features of this program revolve around three types of Steps. 
 - **Task Step** - Events a few hours in length that could be done today or around today. (ex. shopping lists, misc to dos, etc)
 - **Focus Step** - Events repeating across the week and beyond that have sub-tasks to them. (ex. work, social events, sleeping, etc)
@@ -10,6 +10,8 @@ So how do you use it? Learn the following commands and interface to be able to c
 importantly generate onto google calendar all these types of steps from your terminal. You also can change the configuration of 
 how these events are generated in the settings menu.
 
+### API Token and Authorization
+Create a `credentials.json` to to contain your client secret. You can also modify the API Scopes in constants.py if you need to. To get the client secret you must set up a Google Console account.
 
 ### How to Use
 The program starts in _Menu Mode_ from which you can proceed to _Edit Mode_ or _Settings Mode_  with the following.

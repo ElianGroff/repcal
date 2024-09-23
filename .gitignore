@@ -1,2 +1,6 @@
 credentials.json
 token.json
+video_info.md
+pyvenv.cfg
+.venv
+__pycache__
