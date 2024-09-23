@@ -1,0 +1,7 @@
+{
+    "horizon": 20,
+    "default_task_color": "lavender",
+    "default_focus_color": "sage",
+    "calendar_name": "skibdemo",
+    "task_duration": 5
+}

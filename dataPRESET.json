@@ -1,0 +1,94 @@
+{
+    "steps": [
+        {
+            "step_type": "task",
+            "name": "write essay",
+            "content": "on the second world war",
+            "datetime": "2024-07-02 00:00:00",
+            "color": "lavender"
+        },
+        {
+            "step_type": "task",
+            "name": "buy nuggies",
+            "content": "of chicken for applsuace",
+            "datetime": "2024-07-02 00:00:00",
+            "color": "lavender"
+        },
+        {
+            "step_type": "focus",
+            "name": "poet career",
+            "content": "practice and learn poetry",
+            "datetime": "2024-07-02 00:00:00",
+            "color": "tomato",
+            "goal": "ubermench/spiritual enleightened",
+            "time_start": "09:30:00",
+            "time_end": "17:00:00",
+            "items": "draft river rocks-flesh out river rocks-finalize river rocks-finish and publish river rocks-practice wt more stuff",
+            "days": "sat"
+        },
+        {
+            "step_type": "focus",
+            "name": "party woft time",
+            "content": "hhoooooowwwwlllls... getting swifty",
+            "datetime": "2024-07-02 00:00:00",
+            "color": "basil",
+            "goal": "ubermench",
+            "time_start": "18:30:00",
+            "time_end": "23:00:00",
+            "items": "black out-black out- black out",
+            "days": "sat"
+        },
+        {
+            "step_type": "focus",
+            "name": "work",
+            "content": "at subway sammich shop",
+            "datetime": "2024-11-01 00:00:00",
+            "color": "peacock",
+            "goal": "getting money",
+            "time_start": "09:00:00",
+            "time_end": "17:00:00",
+            "items": "open up shop-clean shop-throw away old bread",
+            "days": "mon-tue-wed-thu-fri"
+        },
+        {
+            "step_type": "focus",
+            "name": "church",
+            "content": "ong on god",
+            "datetime": "2025-05-01 00:00:00",
+            "color": "tangerine",
+            "goal": "relationship wt god",
+            "time_start": "10:00:00",
+            "time_end": "14:00:00",
+            "items": "pray for bob-sign up for purity group- pray fro tom",
+            "days": "sun"
+        },
+        {
+            "step_type": "goal",
+            "name": "spiritual enlightenment",
+            "content": "become a better more holy person raahhh!",
+            "datetime": "2029-05-18 00:00:00",
+            "color": "lavender",
+            "focus": "church-studies"
+        },
+        {
+            "step_type": "focus",
+            "name": "sleep",
+            "content": "eeperymaxing",
+            "datetime": "2030-01-01 00:00:00",
+            "color": "graphite",
+            "goal": "health",
+            "time_start": "00:00:01",
+            "time_end": "08:00:00",
+            "items": "",
+            "days": "sun-mon-tue-wed-thu-fri-sat"
+        },
+        {
+            "step_type": "goal",
+            "name": "ubermench",
+            "content": "conqouring self & attaining greatness",
+            "datetime": "2033-06-11 00:00:00",
+            "color": "lavender",
+            "focus": "all"
+        }
+    ]
+}
