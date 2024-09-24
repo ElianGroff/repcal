@@ -43,7 +43,7 @@ class Step:
     @datetime.setter
     def datetime(self, value):
         p_d = value.lower().strip()
-        print(p_d)
+        #&print(p_d)
         if converted_dt := get_datetime(p_d):
             self._datetime = converted_dt
         elif p_d == '':

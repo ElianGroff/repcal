@@ -4,21 +4,21 @@
             "step_type": "task",
             "name": "write essay",
             "content": "on the second world war",
-            "datetime": "2024-07-02 00:00:00",
+            "datetime": "2024-09-23 20:03:25",
             "color": "lavender"
         },
         {
             "step_type": "task",
             "name": "buy nuggies",
             "content": "of chicken for applsuace",
-            "datetime": "2024-07-02 00:00:00",
+            "datetime": "2024-09-23 20:03:25",
             "color": "lavender"
         },
         {
             "step_type": "focus",
             "name": "poet career",
             "content": "practice and learn poetry",
-            "datetime": "2024-07-02 00:00:00",
+            "datetime": "2024-09-23 20:03:25",
             "color": "tomato",
             "goal": "ubermench/spiritual enleightened",
             "time_start": "09:30:00",
@@ -30,7 +30,7 @@
             "step_type": "focus",
             "name": "party woft time",
             "content": "hhoooooowwwwlllls... getting swifty",
-            "datetime": "2024-07-02 00:00:00",
+            "datetime": "2024-09-23 20:03:25",
             "color": "basil",
             "goal": "ubermench",
             "time_start": "18:30:00",

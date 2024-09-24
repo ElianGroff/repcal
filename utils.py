@@ -8,7 +8,7 @@ def get_datetime(d):
     m_datetime = re.findall(r'^(\d{4})-(\d{2})-(\d{2}) ([0-9][0-2]*):([0-5][0-9])+ ([A|P]M)$', d, re.IGNORECASE)  # 2034-12-15 5:14 PM
     m_alt = re.findall(r'^(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2}):(\d{2})$', d)  # 2025-11-24 00:00:00
 
-    today = dt.datetime.today()
+    today = dt.datetime.today().replace(microsecond=0)
 
     if m_date:
         date = dt.datetime.strptime(d, "%Y-%m-%d")
